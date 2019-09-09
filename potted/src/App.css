@@ -57,6 +57,16 @@ html, body{
   flex-direction: column;
   margin-top: 100px;
 }
+.background:before {
+  content: '';
+  height: 100px;
+  display: inline-block;
+}
+.about:before {
+  content: '';
+  height: 100px;
+  display: inline-block;
+}
 @media screen and (max-width: 800px) {
   .background {
     background-image: url(./mobile.png) ;
@@ -171,4 +181,55 @@ html, body{
 }
 #about {
   bottom: 300%
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.help {
+  flex-direction: column;
+  height: 200px;
+}
+.form-text {
+  font-size: 35px;
+  margin: 5px;
+}
+.form-div input {
+  border-width: 2px;
+  border-color: black;
+  margin-left: 5px;
+  height: 40px;
+  width: 300px;
+}
+.help input {
+  border-width: 2px;
+  border-color: black;
+  margin-left: 5px;
+  height: 80px;
+  width: 300px;
+}
+.submit-button {
+  height: 80px;
+  width: 125px;
+  font-size: 25px;
+  color: #F48F81;
+  border-color: #F48F81;
+  margin-top: 20px;
+  border-width: 2px;
+  font-weight: bold;
+  font-family: 'Staatliches', cursive;
+}
+.about-highlight {
+  background-color: #CCF99F;
+}
+.contact-highlight {
+  background-color: #B9E3D9;
 }
