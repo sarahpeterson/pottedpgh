@@ -1,6 +1,11 @@
 import React from 'react';
 import './App.css';
 
+// delete build branch
+// run build again, commit on develop
+// double check develop is at the right spot
+// switch back to real site branch
+
 function App() {
   return (
     <div className="App">
