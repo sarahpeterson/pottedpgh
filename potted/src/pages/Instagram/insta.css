@@ -1,0 +1,32 @@
+.insta-container {
+	height: 100%;
+}
+.container {
+	background-image: url(./placeholder.jpg) ;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #999;
+  height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.follow {
+  font-size: 120px;
+  color: white;
+  margin-left: 40px;
+  width: 75%;
+}
+@media screen and (max-width: 600px) , screen and (max-height: 600px) {
+  .follow {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 600px) , screen and (max-height: 200px) {
+  .follow {
+    font-size: 70px;
+    margin-left: 20px;
+  }
+}
