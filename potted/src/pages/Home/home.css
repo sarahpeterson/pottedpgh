@@ -29,6 +29,11 @@
     font-size: 25px;
   }
 }
+@media screen and (max-width: 400px) {
+  .header-link {
+    font-size: 20px;
+  }
+}
 .potted {
   font-family: phosphate;
   font-size: 100px;
@@ -37,6 +42,11 @@
 @media screen and (max-width: 800px) {
   .potted {
     font-size: 60px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .potted {
+    font-size: 45px;
   }
 }
 .background {
@@ -98,6 +108,7 @@
     margin-top: 0px;
     padding: 0px;
     font-size: 40px;
+    text-align: center;
   }
 }
 .curated p {
@@ -118,6 +129,11 @@
 @media screen and (max-width: 800px) {
   .about-text {
     font-size: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about-text {
+    font-size: 30px;
   }
 }
 .about-text-p {
@@ -161,6 +177,11 @@
     font-size: 40px;
   }
 }
+@media screen and (max-width: 400px) {
+  .contact-text {
+    font-size: 30px;
+  }
+}
 .contact-text-p {
   background-color: #B9E3D9;
   width: 95%;
@@ -195,6 +216,11 @@
   flex-direction: row;
   align-items: center;
 }
+@media screen and (max-width: 400px) {
+  .form-div {
+    width: 100%;
+  }
+}
 .help {
   flex-direction: column;
   height: 200px;
@@ -203,12 +229,24 @@
   font-size: 35px;
   margin: 5px;
 }
+@media screen and (max-width: 400px) {
+  .form-text {
+    font-size: 20px;
+  }
+}
 .form-div input {
   border-width: 2px;
   border-color: black;
   margin-left: 5px;
   height: 40px;
   width: 300px;
+}
+@media screen and (max-width: 400px) {
+  .form-div input {
+    height: 30px;
+    width: 200px;
+    margin: 5px;
+  }
 }
 .help textarea {
   border-width: 2px;
@@ -227,6 +265,7 @@
   border-width: 2px;
   font-weight: bold;
   font-family: 'Staatliches', cursive;
+  background-color: transparent;
 }
 .about-highlight {
   background-color: #CCF99F;
