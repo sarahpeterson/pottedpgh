@@ -4,14 +4,21 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Instagram from './pages/Instagram';
 import NotFound from './pages/NotFound';
+import Thanks from './pages/Thanks';
 
 const Main = () => {
   return (
-    <Switch>
-      <Route exact path='/' component={Home}></Route>
-      <Route exact path='/follow' component={Instagram}></Route>
-      <Route path="*" component={NotFound} />
-    </Switch>
+  <Switch>
+    <Route exact path="/">
+      <Home />
+    </Route>
+    <Route path="/many-thanks">
+      <Thanks />
+    </Route>
+    <Route path="/follow">
+      <Instagram />
+    </Route>
+  </Switch>
   );
 }
 
