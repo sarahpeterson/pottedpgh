@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap');
+
+.potted-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 10px; */
+  height: 100px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+}
+.header-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  cursor: pointer;
+}
+.header-link {
+  color:  #F48F81;
+  font-size: 45px;
+  display: block;
+  /* height: 100px; */
+  text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+  .header-link {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header-link {
+    font-size: 20px;
+  }
+}
+.potted {
+  font-family: phosphate, 'Bungee Inline';
+  font-size: 100px;
+  margin: 0px;
+}
+@media screen and (max-width: 800px) {
+  .potted {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .potted {
+    font-size: 45px;
+  }
+}
+.background {
+  background-image: url(./cropped.png) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  background-color: #999;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.background:before {
+  content: '';
+  height: 100px;
+  display: inline-block;
+}
+.about:before {
+  content: '';
+  height: 100px;
+  display: inline-block;
+}
+.contact:before {
+  content: '';
+  height: 100px;
+  display: inline-block;
+}
+@media screen and (max-width: 800px) {
+  .background {
+    background-image: url(./mobile.png) ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    background-color: #999;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.curated {
+  color: white;
+  font-size: 65px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  background-color: rgba(204, 249, 159, 0.7);
+  margin: 0px;
+  margin-top: 10px;
+  padding: 5px;
+}
+@media screen and (max-width: 800px) {
+  .curated {
+    background-color: transparent;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 40px;
+    text-align: center;
+  }
+}
+.curated p {
+  margin: 0px;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+.about-text {
+  font-size: 50px;
+  margin: 20px;
+  margin-top: 5px;
+}
+@media screen and (max-width: 800px) {
+  .about-text {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about-text {
+    font-size: 30px;
+  }
+}
+.about-text-p {
+  background-color: #CCF99F;
+  width: 95%;
+}
+.about-text-p p {
+  background-color: #CCF99F;
+  /* padding: 5px; */
+  padding-left: 15px;
+  padding-bottom: 10px;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  margin: 0px;
+}
+.woman {
+  background-image: url(./SarahAndLisa.jpg) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  background-color: #999;
+  height: 800px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 800px) {
+  .woman {
+    height: 200px;
+    width: 100%;
+  }
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+.contact-text {
+  font-size: 50px;
+  margin: 20px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 800px) {
+  .contact-text {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contact-text {
+    font-size: 30px;
+  }
+}
+.contact-text-p {
+  background-color: #B9E3D9;
+  width: 95%;
+}
+.contact-text-p p {
+  background-color: #B9E3D9;
+  /* padding: 5px; */
+  padding-left: 15px;
+  padding-bottom: 10px;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  margin: 0px;
+}
+#home {
+  bottom: 100%
+}
+#contact {
+  bottom: 200%
+}
+#about {
+  bottom: 300%
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (max-width: 400px) {
+  .form-div {
+    width: 100%;
+  }
+}
+.help {
+  flex-direction: column;
+  height: 200px;
+}
+.form-text {
+  font-size: 35px;
+  margin: 5px;
+}
+@media screen and (max-width: 400px) {
+  .form-text {
+    font-size: 20px;
+  }
+}
+.form-div input {
+  border-width: 2px;
+  border-color: black;
+  margin-left: 5px;
+  height: 40px;
+  width: 300px;
+}
+@media screen and (max-width: 400px) {
+  .form-div input {
+    height: 30px;
+    width: 200px;
+    margin: 5px;
+  }
+}
+.help textarea {
+  border-width: 2px;
+  border-color: black;
+  margin-left: 5px;
+  height: 80px;
+  width: 300px;
+}
+.submit-button {
+  height: 80px;
+  width: 125px;
+  font-size: 25px;
+  color: #F48F81;
+  border-color: #F48F81;
+  margin-top: 20px;
+  border-width: 2px;
+  font-weight: bold;
+  font-family: 'Raleway', cursive;
+  background-color: transparent;
+}
+.about-highlight {
+  background-color: #CCF99F;
+}
+.contact-highlight {
+  background-color: #B9E3D9;
+}
+.interested {
+  margin-bottom: 0px;
+}
+.houseplant {
+  height: 200px;
+}
+.icons {
+  flex-direction: row;
+}
+.icon {
+  margin: 5px;
+  outline: 0;
+  color: black;
+}
+.icon:active {
+  color: black;
+}
+.icon:visited {
+  color: black;
+}
+.icon:hover {
+  color: black;
+}
+.icon:focus {
+  color: black;
+}
+.contact-input {
+  font-size: 20px;
+  background-image: none;
+}
+.contact-input:focus {
+  outline: 0;
+}

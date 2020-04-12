@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+<style type="text/css" media="screen">
+  .not-found {
+  	height: 100%;
+  }
+  .not-found-container {
+  	background-image: url(./NotFoundBackground2.jpg) ;
+  	background-position: center center;
+  	background-repeat:  no-repeat;
+  	background-attachment: fixed;
+  	background-size:  cover;
+  	background-color: #999;
+    height: 100vh;
+  	display: flex;
+  	align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .found-home {
+    font-size: 60px;
+    margin-left: 40px;
+    width: 75%;
+    text-shadow: 2px 2px aliceblue;
+    color: #080357;
+  }
+  .found {
+    font-size: 120px;
+    margin-left: 40px;
+    width: 75%;
+    font-family: 'Raleway';
+    text-shadow: 2px 2px aliceblue;
+    color: #080357;
+  }
+  @media screen and (max-width: 600px) , screen and (max-height: 600px) {
+    .found {
+      font-size: 40px;
+      margin-left: 20px;
+    }
+  }
+  @media screen and (max-width: 600px) , screen and (max-height: 200px) {
+    .found {
+      font-size: 70px;
+      margin-left: 20px;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="not-found">
+  <div class="not-found-container">
+    <p class="found">
+      Thanks!
+    </p>
+  </div>
+</div>
+</body>
+</html>

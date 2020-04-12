@@ -1,17 +1,16 @@
 import React from 'react';
+import Main from './Main';
 import './App.css';
+
+// gif - fix pot moving
+// fix form
+// add google seo
+// check console errors
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet" />
-      </header>
-      <div className="background">
-        <p className="follow">
-          Follow us on Instagram @pottedpgh
-        </p>
-      </div>
+      <Main />
     </div>
   );
 }
